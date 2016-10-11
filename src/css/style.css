@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: darkslategrey;
+  color: white;
+}
+
+.form-control {
+  width: 40%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.yelpSquare {
+  width:22%;
+  overflow: hidden;
+}
+
+.yelpSquare img {
+  width: 70%;
+  max-height: 70%;
+  max-width: 70%;
+}
+
+.col-xs-3 {
+  min-height: 300px;
+}
+
+.delBtn{
+  display:block;
+  margin: auto;
+}
